@@ -17,7 +17,7 @@ const NavbarSwitch = () => {
     <div className='col:hidden'>
         <div onClick={() => {setShow('hidden')}} className={`${show} z-10 fixed h-full w-full left-0 top-0`}></div>
 
-<button onClick={() => {setShow('')}} className='col:hidden'><div className='dark:bg-[#555555] bg-[silver] hover:bg-green-500 hover:text-[white] cursor-pointer rounded-full h-10 w-10 flex justify-center items-center'><FontAwesomeIcon icon={faPropIcon}/></div></button>
+<button onClick={() => {setShow('')}} className='col:hidden'><div className='dark:bg-[#555555] bg-[silver] hover:bg-green-500 dark:hover:bg-green-500 hover:text-[white] cursor-pointer rounded-full h-10 w-10 flex justify-center items-center'><FontAwesomeIcon icon={faPropIcon}/></div></button>
 
     <div className={`${show} z-20 fixed flex flex-col items-center justify-center text-2xl space-y-[6px] dark:bg-[#333333] bg-[#f5f5f5] border-4 border-green-500 rounded-[30px] right-[18px] top-24 h-[200px] w-[200px]`}>
         <a onClick={() => {setShow('hidden')}} href='#'><h1>Home</h1></a>
