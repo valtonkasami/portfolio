@@ -84,7 +84,7 @@ const Project: React.FC<ProjectProps> = (props) => {
       <div className='dark:drop-shadow-[0_0px_5px_rgba(0,0,0,1)] drop-shadow mx-2'>
 
         <div className={`${Position(position)} py-5 overflow-hidden relative flex border-2 dark:border-[#555555] border-[#999999] h-[450px] max-pr:h-[850px] rounded-[30px] mb-10 items-center max-pr:flex-col-reverse max-pr:px-5 max-pr:py-0 max-pr:pt-5`}>
-        <div className='absolute dark:bg-[black] bg-[white] opacity2 h-full w-full'></div>
+        <div className='absolute dark:bg-[black] max-md:dark:bg-green-500 max-md:dark:blur-[100px] bg-[white] opacity2 h-full w-full'></div>
         <div className='max-pr:mb-5 relative pr:px-10 pr:w-[500px] ex:w-[335px] flex flex-col items-center'>
             <h1 className='font-bold text-3xl mb-5 max-pr:hidden'>{name}  <span className='text-4xl'>{emoji}</span></h1>
             <p className='text-center dark:font-medium dark:text-[silver] text-[#555555] font-bold  max-pr:pt-5'>{description}</p>
