@@ -40,7 +40,7 @@ const About = () => {
             <div className='grid grid-cols-3 gap-x-5 gap-y-5 max-big:grid-cols-3 max-twoz:grid-cols-2 max-md:grid-cols-1 max-sm:w-full max-sm:px-5'>    
             
             <div id='1' className='relative dark:bg-transparent bg-[#eeeeee] pt-3 overflow-hidden sm:w-[330px] h-fit rounded-[20px]  border-[#666666] hover:border-green-500 border-2'>
-                <div className='px-3'><div className='absolute hidden dark:block bg-green-950 h-full w-full top-0 left-0 blur-[100px]'></div>
+                <div className='px-3'><div className='absolute hidden dark:max-md:hidden dark:block bg-green-950 h-full w-full top-0 left-0 blur-[100px]'></div>
                 <h1 className='relative dark:font-[500] font-bold flex items-center'><FontAwesomeIcon className='text-2xl mr-2 pb-[2px]' icon={faPropIcon}/>Web Developer</h1>
                 <p className='relative dark:text-[silver] text-[#555555] mt-4 dark:font-[500] font-[600]'>Modern Web Developer who created many Cool Websites!</p>
                 
@@ -54,7 +54,7 @@ const About = () => {
             </div>
 
             <div id='2' className='relative dark:bg-transparent bg-[#eeeeee] pt-3 overflow-hidden sm:w-[330px] h-fit rounded-[20px]  border-[#666666] hover:border-green-500 border-2'>
-                <div className='px-3'><div className='absolute hidden dark:block bg-green-950 h-full w-full top-0 left-0 blur-[100px]'></div>
+                <div className='px-3'><div className='absolute hidden dark:max-md:hidden dark:block bg-green-950 h-full w-full top-0 left-0 blur-[100px]'></div>
                 <h1 className='relative dark:font-[500] font-bold flex items-center'><FontAwesomeIcon className=' text-2xl mr-2 pb-[2px]' icon={faPropIcon2}/>Full Stack Capabilitites</h1>
                 <p className='relative dark:text-[silver] text-[#555555] mt-4 dark:font-[500] font-[600]'>I&apos;m a Capable & Flexible Web Developer with multiple skills!</p>
 
@@ -68,7 +68,7 @@ const About = () => {
             </div>
 
             <div id='3' className='relative dark:bg-transparent bg-[#eeeeee] pt-3 overflow-hidden sm:w-[330px] h-fit rounded-[20px]  border-[#666666] hover:border-green-500 border-2'>
-                <div className='px-3'><div className='absolute hidden dark:block bg-green-950 h-full w-full top-0 left-0 blur-[100px]'></div>
+                <div className='px-3'><div className='absolute hidden dark:max-md:hidden dark:block bg-green-950 h-full w-full top-0 left-0 blur-[100px]'></div>
                 <h1 className='relative dark:font-[500] font-bold flex items-center'><FontAwesomeIcon className='text-xl mr-2 pb-[2px]' icon={faPropIcon3}/>UI/UX Designer</h1>
                 <p className='relative dark:text-[silver] text-[#555555] mt-4 dark:font-[500] font-[600]'>With great attention to detail, I&apos;m able to create Unique Designs!</p>
                 {seeMore13 && <p className='relative dark:font-[500] font-[600]'>
