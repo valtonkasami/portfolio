@@ -21,7 +21,7 @@ const Hero = () => {
             Front-End Focused
             <span className='block mt-3 max-sm:ml-5'>React Developer <span className='text-6xl max-sm:text-4xl'>👨🏻‍💻</span></span>
             </h1> </div>
-            <p className='relative font-[600] dark:text-[silver] text-[#555555] drop-shadow text-lg mt-8 max-col:mx-10'>Hi, I'm Valton Kasami, a Creative Front-End Focused Developer <br className='max-sm:hidden'/>
+            <p className='relative font-[600] dark:text-[silver] text-[#555555] drop-shadow text-lg mt-8 max-col:mx-10'>Hi, I&apos;m Valton Kasami, a Creative Front-End Focused Developer <br className='max-sm:hidden'/>
             with Full Stack Capabilitites, with a Unique & Cool Style!</p>
             <div className='max-sm:px-10 relative flex max-sm:flex-col max-sm:space-x-0 max-sm:items-center max-sm: space-x-5 max-col:justify-center max-sm:w-full'>
                 <a className='max-sm:w-full' href='https://github.com/valtonkasami' target='_blank'>
