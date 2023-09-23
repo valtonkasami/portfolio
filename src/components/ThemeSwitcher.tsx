@@ -7,12 +7,26 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 const ThemeSwitcher = () => {
     const [mounted, setMounted] = useState(false);
+
+    const toggleTheme = () => {
+      if (theme === "system") {
+        const prefersDarkMode = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+        setTheme(prefersDarkMode ? "dark" : "light");
+      } else if (theme === "system") {
+          const prefersDarkMode = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+          setTheme(!prefersDarkMode ? "dark" : "light");
+      } else {
+        setTheme(theme === "dark" ? "light" : "dark");
+      }
+    };
+
     const { theme, setTheme } = useTheme()
     const faPropIcon = faMoon as IconProp;
     const faPropIcon2 = faSun as IconProp;
 
     useEffect(() => {
         setMounted(true);
+        toggleTheme();
     }, []);
 
     if (!mounted) {

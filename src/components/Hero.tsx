@@ -17,9 +17,9 @@ const Hero = () => {
             
         <div className='max-col:w-full max-col:flex max-col:justify-center'>
         <div className='absolute dark:block hidden blur-[200px] dark:max-md:hidden mt-10 max-col:mr-3 w-[500px] h-[200px] max-sm:w-[300px] max-sm:ml-6 max-sm:h-[200px] bg-green-700 max-sm:bg-green-600'></div>
-        <h1 className='drop-shadow relative max-sm:text-center text-5xl max-sm:text-3xl dark:font-[700] font-[800] text-left'>
+        <h1 className='drop-shadow relative max-sm:ml-3 text-5xl max-sm:text-3xl dark:font-[700] font-[800] text-left'>
             Front-End Focused
-            <span className='block mt-3 max-sm:ml-5'>React Developer <span className='text-6xl max-sm:text-4xl'>👨🏻‍💻</span></span>
+            <span className='block mt-3'>React Developer <span className='text-6xl max-sm:text-4xl'>👨🏻‍💻</span></span>
             </h1> </div>
             <p className='relative font-[600] dark:text-[silver] text-[#555555] drop-shadow text-lg mt-8 max-col:mx-10'>Hi, I&apos;m Valton Kasami, a Creative Front-End Focused Developer <br className='max-sm:hidden'/>
             with Full Stack Capabilitites, with a Unique & Cool Style!</p>
