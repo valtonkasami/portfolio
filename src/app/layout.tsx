@@ -9,6 +9,9 @@ export const metadata = {
   description: 'Welcome to Valton\'s Portfolio! Here you can Learn About Me, you can Contact Me and you will find a collection of My Projects!',
   icons: {
     icon: 'laptop.png'
+  },
+  apple: {
+    icon: 'apple.png'
   }
 }
 
