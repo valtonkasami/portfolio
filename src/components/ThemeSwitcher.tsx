@@ -16,7 +16,7 @@ const ThemeSwitcher = () => {
           const prefersDarkMode = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
           setTheme(!prefersDarkMode ? "dark" : "light");
       } else {
-        setTheme(theme === "dark" ? "light" : "dark");
+        setTheme(theme === "dark" ? "dark" : "light");
       }
     };
 
