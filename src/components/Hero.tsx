@@ -17,12 +17,12 @@ const Hero = () => {
             
         <div className='max-col:w-full max-col:flex max-col:justify-center'>
         <div className='absolute dark:block hidden blur-[200px] dark:max-md:hidden mt-10 max-col:mr-3 w-[500px] h-[200px] max-sm:w-[300px] max-sm:ml-6 max-sm:h-[200px] bg-green-700 max-sm:bg-green-600'></div>
-        <h1 className='drop-shadow relative max-sm:ml-2 text-5xl max-sm:text-3xl dark:font-[700] font-[800] text-left'>
-            Front-End Focused
-            <span className='block mt-3'>React Developer <span className='text-6xl max-sm:text-4xl'>👨🏻‍💻</span></span>
+        <h1 className='drop-shadow relative text-5xl max-sm:text-3xl dark:font-[700] font-[800] text-'>
+            Capable Full Stack<br/>
+            <span className='block mt-3'>Software Developer</span>
             </h1> </div>
-            <p className='relative font-[600] dark:text-[silver] text-[#555555] drop-shadow text-lg mt-8 max-col:mx-10'>Hi, I&apos;m Valton Kasami, a Creative Front-End Focused Developer <br className='max-sm:hidden'/>
-            with Full Stack Capabilitites, with a Unique & Cool Style!</p>
+            <p className='relative font-[600] dark:text-[silver] text-[#555555] drop-shadow text-lg mt-8 max-col:mx-10'>Hey, I&apos;m Valton Kasami, a Full Stack Software Developer, <br className='max-sm:hidden'/>
+            with a Unique & Cool Style and a lot of Creativity!</p>
             <div className='max-sm:px-10 relative flex max-sm:flex-col max-sm:space-x-0 max-sm:items-center max-sm: space-x-5 max-col:justify-center max-sm:w-full'>
                 <a className='max-sm:w-full' href='https://github.com/valtonkasami' target='_blank'>
             <button className='active:bg-green-950 active:border-green-400 flex items-center justify-center mt-8 text-xl font-[600] dark:font-[500] dark:bg-[#222222] bg-[silver]  dark:border-2 border-2 border-[#666666] hover:border-green-500 hover:text-green-500 rounded-[20px] h-14 w-[200px] max-sm:w-full dark:text-white'>

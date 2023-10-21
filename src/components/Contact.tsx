@@ -11,12 +11,16 @@ const Contact = () => {
 
   return (
     <div id='contact' className='flex justify-center mx-2'>
-        <div className='w-[1030px] dark:bg-[black] bg-green-500 py-10 rounded-[20px] px-8 mb-5'>
-        <div className='font-bold max-ed:text-center'>
+        <div className=' dark:bg-[black] bg-green-500 py-10 rounded-[20px] px-10 mb-5'>
+        
+        <div className='flex flex-col items-center '>
 
+        <div className='font-bold max-ed:text-center w-full'>
+
+            <div className='text-left flex flex-col w-full items-left max-con:items-center max-con:text-center'>
             <h1 className='text-xl dark:text-green-500 text-green-100'>CONTACT</h1>
             <h1 className='text-3xl'>Feel free to contact me anytime!</h1>
-
+            </div>
         </div>
 
         <div className='flex max-ed:justify-center'>
@@ -46,6 +50,7 @@ const Contact = () => {
                 </div>
             </div></a>
 
+        </div>
         </div>
         </div>
     </div>

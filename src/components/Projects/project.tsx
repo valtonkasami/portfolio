@@ -29,7 +29,9 @@ const Project: React.FC<ProjectProps> = (props) => {
             return ''
         } else if (name === 'Vivid') {
             return 'w-12 dark:border-4 border-2 rounded-full dark:border-[#222222] border-[#444444] bg-[#444444]'
-        }
+        } else if (name === 'Clarity') {
+          return 'w-12 dark:border-4 border-2 rounded-full dark:border-[#222222] border-[#444444] bg-[#444444]'
+      }
     }
 
     const imgStyle2 = (name: string) => {
@@ -37,24 +39,19 @@ const Project: React.FC<ProjectProps> = (props) => {
             return 'drop-shadow-[0_0px_1px_rgba(0,0,0,0.6)] w-11 mt-[2px]'
         } else if (name === 'Vivid') {
             return ' w-[40px] rounded-[10px] border-2 border-[silver]'
-        }
+        } else if (name === 'Clarity') {
+          return ' w-[48px]'
+      }
     }
 
     const imgStyle3 = (name: string) => {
         if (name === 'AniStore') {
             return 'w-11'
-        } else if (name === 'Vivid') {
+        } else if (name === 'Vivid' || name === 'Clarity') {
             return 'drop-shadow-[0_0px_1px_rgba(0,0,0,0.6)] w-11 mt-[2px]'
         }
     }
 
-    const imgStyle4 = (name: string) => {
-        if (name === 'Vivid') {
-            return 'dark:bg-[#444444] bg-green-100 max-ex:hidden rounded-full border-2 hover:border-green-500 border-[#999999] h-16 w-16 flex items-center justify-center'
-        } else if (name === 'AniStore') {
-            return 'h-16 w-16 max-ex:hidden'
-        }
-    }
 
     const Position = (position: any) => {
         if (position === 'reverse') {
@@ -95,7 +92,6 @@ const Project: React.FC<ProjectProps> = (props) => {
                 <div className='dark:bg-[#444444] bg-green-100 rounded-full border-2 hover:border-green-500 border-[#999999] h-16 w-16 flex items-center justify-center'><img className={imgStyle(name)} src={createdWith[0]}/></div>
                 <div className='dark:bg-[#444444] bg-green-100 rounded-full border-2 hover:border-green-500 border-[#999999] h-16 w-16 flex items-center justify-center'><img className={imgStyle2(name)} src={createdWith[1]}/></div>
                 <div className='dark:bg-[#444444] bg-green-100 rounded-full border-2 hover:border-green-500 border-[#999999] h-16 w-16 flex items-center justify-center'><img className={imgStyle3(name)} src={createdWith[2]}/></div>
-                <div className={imgStyle4(name)}><img className={imgStyle3(name)} src={createdWith[3]}/></div>
                 
                 </div>
             </div>
