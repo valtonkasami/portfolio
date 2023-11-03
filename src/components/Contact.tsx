@@ -13,7 +13,7 @@ const Contact = () => {
     <div id='contact' className='flex justify-center mx-2'>
         <div className=' dark:bg-[black] bg-green-500 py-10 rounded-[20px] px-5 mb-5'>
         
-        <div className='flex flex-col items-center '>
+        <div className='flex flex-col items-center mx-3'>
 
         <div className='font-bold max-ed:text-center w-full'>
 
