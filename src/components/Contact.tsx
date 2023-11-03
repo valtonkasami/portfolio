@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div id='contact' className='flex justify-center mx-2'>
-        <div className=' dark:bg-[black] bg-green-500 py-10 rounded-[20px] px-10 mb-5'>
+        <div className=' dark:bg-[black] bg-green-500 py-10 rounded-[20px] px-5 mb-5'>
         
         <div className='flex flex-col items-center '>
 
@@ -23,7 +23,7 @@ const Contact = () => {
             </div>
         </div>
 
-        <div className='flex max-ed:justify-center'>
+        <div className='flex max-ed:justify-center w-full'>
         <div className='mt-10 grid grid-cols-3 max-con:grid-cols-2 max-ed:grid-cols-1 gap-4 max-ex:w-full'>
 
             <a href='mailto:valton__@outlook.com' target='blank'><div className='flex items-center dark:bg-[#222222] bg-green-400 dark:hover:border-green-500 hover:border-green-200 ex:w-[280px] w-full px-2 py-2 border-2 border-[#444444] rounded-[15px]'>
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
             </div></a>
 
-            <a href='https://discord.gg/BU8jjSn58k' target='blank'><div className='flex items-center dark:bg-[#222222] bg-green-400 ex:w-[280px] w-full px-2 py-2 border-2 border-[#444444] hover:border-green-200 dark:hover:border-green-500 rounded-[15px]'>
+            <a href='https://discord.gg/sxMkvHQBwg' target='blank'><div className='flex items-center dark:bg-[#222222] bg-green-400 ex:w-[280px] w-full px-2 py-2 border-2 border-[#444444] hover:border-green-200 dark:hover:border-green-500 rounded-[15px]'>
                 <div className='h-12 w-12 dark:bg-[#333333] bg-green-200 border-2 border-[#888888] flex items-center justify-center mr-3 rounded-full text-green-500'><div className='rounded-full flex items-center justify-center h-9 w-9 overflow-hidden'><FontAwesomeIcon className='text-5xl mt-1' icon={faPropIcon2}/></div></div>
                 <div>
                 <h1 className='font-bold dark:text-green-500'>Discord</h1>
